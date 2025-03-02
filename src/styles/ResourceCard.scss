@@ -1,0 +1,26 @@
+// ResourceCard.scss
+$primary-color: #2A324B;
+$background-color: #fff;
+
+.resources {
+    background: $background-color;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    h3 {
+        font-size: 18px;
+        color: $primary-color;
+    }
+
+    a {
+        color: $primary-color;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            color: darken($primary-color, 10%);
+        }
+    }
+}

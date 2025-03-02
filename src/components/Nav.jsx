@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
-export default function NavBar() {
+
+export default function Nav() {
   return (
     <nav className="tabs">
       <ul>
@@ -8,7 +9,7 @@ export default function NavBar() {
         <li><Link to="/css" className="category-btn">CSS</Link></li>
         <li><Link to="/javascript" className="category-btn">JavaScript</Link></li>
         <li><Link to="/react" className="category-btn">React</Link></li>
-        <li><Link to="/sanity" className="category-btn">Sanity</Link></li>
+        <li><Link to="/headless-cms" className="category-btn">Sanity</Link></li>
       </ul>
     </nav>
   );

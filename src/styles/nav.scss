@@ -1,0 +1,40 @@
+// nav.scss
+$primary-color: #2A324B;
+$secondary-color: #E1E5EE;
+$background-color: #fff;
+
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 12px;
+    }
+
+    button {
+        background: $primary-color;
+        border: none;
+        color: $secondary-color;
+        font-size: 13px;
+        font-weight: 900;
+        padding: 17px 63px;
+        white-space: nowrap;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover {
+            background: darken($primary-color, 10%);
+        }
+
+        &.active {
+            background-color: $background-color;
+            color: $primary-color;
+        }
+    }
+}

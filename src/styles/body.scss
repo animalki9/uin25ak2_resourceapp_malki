@@ -1,0 +1,11 @@
+// body.scss
+$secondary-color: #E1E5EE;
+$primary-color: #2A324B;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $secondary-color;
+    color: $primary-color;
+    margin: 150px 0 0 150px;
+    max-width: 1000px;
+}

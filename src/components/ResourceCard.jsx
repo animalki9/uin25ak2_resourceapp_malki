@@ -10,16 +10,17 @@ export default function ResourceCard() {
     return (
     <>
         {filteredResources.map((resource) => (
-            <article className="resources" key={resource.id}>
+            <article className="resources" key={resource.title}>
                 <h3>{resource.title}</h3>
                 <ul>
                     <li>
                         <Link to={resource.url}>Les mer her</Link>
                     </li>
                 </ul>
-
+            {/**/}
             </article>
         ))}
     </>
   );
 }
+
